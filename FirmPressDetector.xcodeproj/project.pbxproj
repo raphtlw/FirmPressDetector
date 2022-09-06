@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64188FDF28C774EE003CF056 /* FingerSizeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64188FDE28C774EE003CF056 /* FingerSizeModel.swift */; };
+		6472EFF028C487ED00CF5A18 /* FirmPressContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472EFEF28C487ED00CF5A18 /* FirmPressContextMenu.swift */; };
+		6472EFF628C4FDE900CF5A18 /* ChidoriPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472EFF228C4FDE900CF5A18 /* ChidoriPresentationController.swift */; };
+		6472EFF728C4FDE900CF5A18 /* ChidoriMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472EFF328C4FDE900CF5A18 /* ChidoriMenu.swift */; };
+		6472EFF828C4FDE900CF5A18 /* ChidoriMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472EFF428C4FDE900CF5A18 /* ChidoriMenuTableViewCell.swift */; };
+		6472EFF928C4FDE900CF5A18 /* ChidoriAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472EFF528C4FDE900CF5A18 /* ChidoriAnimationController.swift */; };
+		64A66BBF28C636F20056A2AA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 64A66BBE28C636F20056A2AA /* SnapKit */; };
+		64C9E8D328BE61F6009B932D /* FirmPressDetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C9E8D228BE61F6009B932D /* FirmPressDetectorApp.swift */; };
+		64C9E8D528BE61F6009B932D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C9E8D428BE61F6009B932D /* ContentView.swift */; };
+		64C9E8D728BE61F7009B932D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C9E8D628BE61F7009B932D /* Assets.xcassets */; };
+		64C9E8DA28BE61F7009B932D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C9E8D928BE61F7009B932D /* Preview Assets.xcassets */; };
+		64C9E8E428BE61F7009B932D /* FirmPressDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C9E8E328BE61F7009B932D /* FirmPressDetectorTests.swift */; };
+		64C9E8EE28BE61F7009B932D /* FirmPressDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C9E8ED28BE61F7009B932D /* FirmPressDetectorUITests.swift */; };
+		64C9E8F028BE61F7009B932D /* FirmPressDetectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C9E8EF28BE61F7009B932D /* FirmPressDetectorUITestsLaunchTests.swift */; };
+		64C9E8FD28BE6C30009B932D /* TouchDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C9E8FC28BE6C30009B932D /* TouchDetector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64C9E8E028BE61F7009B932D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64C9E8C728BE61F6009B932D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64C9E8CE28BE61F6009B932D;
+			remoteInfo = FirmPressDetector;
+		};
+		64C9E8EA28BE61F7009B932D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64C9E8C728BE61F6009B932D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64C9E8CE28BE61F6009B932D;
+			remoteInfo = FirmPressDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64188FDE28C774EE003CF056 /* FingerSizeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerSizeModel.swift; sourceTree = "<group>"; };
+		6472EFEF28C487ED00CF5A18 /* FirmPressContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmPressContextMenu.swift; sourceTree = "<group>"; };
+		6472EFF228C4FDE900CF5A18 /* ChidoriPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChidoriPresentationController.swift; sourceTree = "<group>"; };
+		6472EFF328C4FDE900CF5A18 /* ChidoriMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChidoriMenu.swift; sourceTree = "<group>"; };
+		6472EFF428C4FDE900CF5A18 /* ChidoriMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChidoriMenuTableViewCell.swift; sourceTree = "<group>"; };
+		6472EFF528C4FDE900CF5A18 /* ChidoriAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChidoriAnimationController.swift; sourceTree = "<group>"; };
+		64C9E8CF28BE61F6009B932D /* FirmPressDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirmPressDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C9E8D228BE61F6009B932D /* FirmPressDetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmPressDetectorApp.swift; sourceTree = "<group>"; };
+		64C9E8D428BE61F6009B932D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64C9E8D628BE61F7009B932D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64C9E8D928BE61F7009B932D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64C9E8DF28BE61F7009B932D /* FirmPressDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirmPressDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C9E8E328BE61F7009B932D /* FirmPressDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmPressDetectorTests.swift; sourceTree = "<group>"; };
+		64C9E8E928BE61F7009B932D /* FirmPressDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirmPressDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C9E8ED28BE61F7009B932D /* FirmPressDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmPressDetectorUITests.swift; sourceTree = "<group>"; };
+		64C9E8EF28BE61F7009B932D /* FirmPressDetectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmPressDetectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64C9E8FC28BE6C30009B932D /* TouchDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchDetector.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64C9E8CC28BE61F6009B932D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A66BBF28C636F20056A2AA /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C9E8DC28BE61F7009B932D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C9E8E628BE61F7009B932D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6472EFF128C4FDA300CF5A18 /* ChidoriMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6472EFF528C4FDE900CF5A18 /* ChidoriAnimationController.swift */,
+				6472EFF328C4FDE900CF5A18 /* ChidoriMenu.swift */,
+				6472EFF428C4FDE900CF5A18 /* ChidoriMenuTableViewCell.swift */,
+				6472EFF228C4FDE900CF5A18 /* ChidoriPresentationController.swift */,
+			);
+			path = ChidoriMenu;
+			sourceTree = "<group>";
+		};
+		64C9E8C628BE61F6009B932D = {
+			isa = PBXGroup;
+			children = (
+				64C9E8D128BE61F6009B932D /* FirmPressDetector */,
+				64C9E8E228BE61F7009B932D /* FirmPressDetectorTests */,
+				64C9E8EC28BE61F7009B932D /* FirmPressDetectorUITests */,
+				64C9E8D028BE61F6009B932D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64C9E8D028BE61F6009B932D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64C9E8CF28BE61F6009B932D /* FirmPressDetector.app */,
+				64C9E8DF28BE61F7009B932D /* FirmPressDetectorTests.xctest */,
+				64C9E8E928BE61F7009B932D /* FirmPressDetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64C9E8D128BE61F6009B932D /* FirmPressDetector */ = {
+			isa = PBXGroup;
+			children = (
+				6472EFF128C4FDA300CF5A18 /* ChidoriMenu */,
+				64C9E8D228BE61F6009B932D /* FirmPressDetectorApp.swift */,
+				64C9E8D428BE61F6009B932D /* ContentView.swift */,
+				64C9E8FC28BE6C30009B932D /* TouchDetector.swift */,
+				6472EFEF28C487ED00CF5A18 /* FirmPressContextMenu.swift */,
+				64188FDE28C774EE003CF056 /* FingerSizeModel.swift */,
+				64C9E8D628BE61F7009B932D /* Assets.xcassets */,
+				64C9E8D828BE61F7009B932D /* Preview Content */,
+			);
+			path = FirmPressDetector;
+			sourceTree = "<group>";
+		};
+		64C9E8D828BE61F7009B932D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64C9E8D928BE61F7009B932D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64C9E8E228BE61F7009B932D /* FirmPressDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				64C9E8E328BE61F7009B932D /* FirmPressDetectorTests.swift */,
+			);
+			path = FirmPressDetectorTests;
+			sourceTree = "<group>";
+		};
+		64C9E8EC28BE61F7009B932D /* FirmPressDetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64C9E8ED28BE61F7009B932D /* FirmPressDetectorUITests.swift */,
+				64C9E8EF28BE61F7009B932D /* FirmPressDetectorUITestsLaunchTests.swift */,
+			);
+			path = FirmPressDetectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64C9E8CE28BE61F6009B932D /* FirmPressDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C9E8F328BE61F7009B932D /* Build configuration list for PBXNativeTarget "FirmPressDetector" */;
+			buildPhases = (
+				64C9E8CB28BE61F6009B932D /* Sources */,
+				64C9E8CC28BE61F6009B932D /* Frameworks */,
+				64C9E8CD28BE61F6009B932D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirmPressDetector;
+			packageProductDependencies = (
+				64A66BBE28C636F20056A2AA /* SnapKit */,
+			);
+			productName = FirmPressDetector;
+			productReference = 64C9E8CF28BE61F6009B932D /* FirmPressDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64C9E8DE28BE61F7009B932D /* FirmPressDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C9E8F628BE61F7009B932D /* Build configuration list for PBXNativeTarget "FirmPressDetectorTests" */;
+			buildPhases = (
+				64C9E8DB28BE61F7009B932D /* Sources */,
+				64C9E8DC28BE61F7009B932D /* Frameworks */,
+				64C9E8DD28BE61F7009B932D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64C9E8E128BE61F7009B932D /* PBXTargetDependency */,
+			);
+			name = FirmPressDetectorTests;
+			productName = FirmPressDetectorTests;
+			productReference = 64C9E8DF28BE61F7009B932D /* FirmPressDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64C9E8E828BE61F7009B932D /* FirmPressDetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C9E8F928BE61F7009B932D /* Build configuration list for PBXNativeTarget "FirmPressDetectorUITests" */;
+			buildPhases = (
+				64C9E8E528BE61F7009B932D /* Sources */,
+				64C9E8E628BE61F7009B932D /* Frameworks */,
+				64C9E8E728BE61F7009B932D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64C9E8EB28BE61F7009B932D /* PBXTargetDependency */,
+			);
+			name = FirmPressDetectorUITests;
+			productName = FirmPressDetectorUITests;
+			productReference = 64C9E8E928BE61F7009B932D /* FirmPressDetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64C9E8C728BE61F6009B932D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					64C9E8CE28BE61F6009B932D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					64C9E8DE28BE61F7009B932D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 64C9E8CE28BE61F6009B932D;
+					};
+					64C9E8E828BE61F7009B932D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 64C9E8CE28BE61F6009B932D;
+					};
+				};
+			};
+			buildConfigurationList = 64C9E8CA28BE61F6009B932D /* Build configuration list for PBXProject "FirmPressDetector" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64C9E8C628BE61F6009B932D;
+			packageReferences = (
+				64A66BBD28C636F20056A2AA /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 64C9E8D028BE61F6009B932D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64C9E8CE28BE61F6009B932D /* FirmPressDetector */,
+				64C9E8DE28BE61F7009B932D /* FirmPressDetectorTests */,
+				64C9E8E828BE61F7009B932D /* FirmPressDetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64C9E8CD28BE61F6009B932D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C9E8DA28BE61F7009B932D /* Preview Assets.xcassets in Resources */,
+				64C9E8D728BE61F7009B932D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C9E8DD28BE61F7009B932D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C9E8E728BE61F7009B932D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64C9E8CB28BE61F6009B932D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6472EFF028C487ED00CF5A18 /* FirmPressContextMenu.swift in Sources */,
+				6472EFF928C4FDE900CF5A18 /* ChidoriAnimationController.swift in Sources */,
+				64C9E8FD28BE6C30009B932D /* TouchDetector.swift in Sources */,
+				6472EFF628C4FDE900CF5A18 /* ChidoriPresentationController.swift in Sources */,
+				6472EFF828C4FDE900CF5A18 /* ChidoriMenuTableViewCell.swift in Sources */,
+				64C9E8D528BE61F6009B932D /* ContentView.swift in Sources */,
+				6472EFF728C4FDE900CF5A18 /* ChidoriMenu.swift in Sources */,
+				64C9E8D328BE61F6009B932D /* FirmPressDetectorApp.swift in Sources */,
+				64188FDF28C774EE003CF056 /* FingerSizeModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C9E8DB28BE61F7009B932D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C9E8E428BE61F7009B932D /* FirmPressDetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C9E8E528BE61F7009B932D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C9E8F028BE61F7009B932D /* FirmPressDetectorUITestsLaunchTests.swift in Sources */,
+				64C9E8EE28BE61F7009B932D /* FirmPressDetectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64C9E8E128BE61F7009B932D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64C9E8CE28BE61F6009B932D /* FirmPressDetector */;
+			targetProxy = 64C9E8E028BE61F7009B932D /* PBXContainerItemProxy */;
+		};
+		64C9E8EB28BE61F7009B932D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64C9E8CE28BE61F6009B932D /* FirmPressDetector */;
+			targetProxy = 64C9E8EA28BE61F7009B932D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		64C9E8F128BE61F7009B932D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64C9E8F228BE61F7009B932D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64C9E8F428BE61F7009B932D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirmPressDetector/Preview Content\"";
+				DEVELOPMENT_TEAM = 2YDFCR6CS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphtlw.apps.FirmPressDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64C9E8F528BE61F7009B932D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirmPressDetector/Preview Content\"";
+				DEVELOPMENT_TEAM = 2YDFCR6CS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphtlw.apps.FirmPressDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64C9E8F728BE61F7009B932D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphtlw.apps.FirmPressDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirmPressDetector.app/FirmPressDetector";
+			};
+			name = Debug;
+		};
+		64C9E8F828BE61F7009B932D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphtlw.apps.FirmPressDetectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirmPressDetector.app/FirmPressDetector";
+			};
+			name = Release;
+		};
+		64C9E8FA28BE61F7009B932D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphtlw.apps.FirmPressDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirmPressDetector;
+			};
+			name = Debug;
+		};
+		64C9E8FB28BE61F7009B932D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raphtlw.apps.FirmPressDetectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirmPressDetector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64C9E8CA28BE61F6009B932D /* Build configuration list for PBXProject "FirmPressDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C9E8F128BE61F7009B932D /* Debug */,
+				64C9E8F228BE61F7009B932D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C9E8F328BE61F7009B932D /* Build configuration list for PBXNativeTarget "FirmPressDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C9E8F428BE61F7009B932D /* Debug */,
+				64C9E8F528BE61F7009B932D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C9E8F628BE61F7009B932D /* Build configuration list for PBXNativeTarget "FirmPressDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C9E8F728BE61F7009B932D /* Debug */,
+				64C9E8F828BE61F7009B932D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C9E8F928BE61F7009B932D /* Build configuration list for PBXNativeTarget "FirmPressDetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C9E8FA28BE61F7009B932D /* Debug */,
+				64C9E8FB28BE61F7009B932D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		64A66BBD28C636F20056A2AA /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		64A66BBE28C636F20056A2AA /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64A66BBD28C636F20056A2AA /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 64C9E8C728BE61F6009B932D /* Project object */;
+}
